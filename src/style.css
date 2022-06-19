@@ -1,0 +1,76 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	font: 14px/1.21 'Libre Baskerville', 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+}
+
+.home-container {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	padding: 2rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	box-sizing: border-box;
+}
+
+.album-container {
+	position: relative;
+	width: 25%;
+	display: inline-block;
+}
+
+@media screen and (max-width: 1100px) {
+	.album-container {
+		width: 50%;
+	}
+	.album-container > a > img {
+		width: 93%;
+		margin: 1rem;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.album-container {
+		width: 100%;
+		margin-bottom: 1rem;
+	}
+
+	.album-container > a > img {
+		width: 100%;
+		margin: 0;
+	}
+}
+
+.album-container img {
+	width: 90%;
+	margin: 1rem;
+}
+
+#album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 
+#album-9:hover .overlay, #album-10:hover .overlay, #album-11:hover .overlay, #album-12:hover .overlay, #album-13:hover .overlay, #album-14:hover .overlay, #album-15:hover .overlay, #album-16:hover .overlay, 
+#album-17:hover .overlay, #album-18:hover .overlay, #album-19:hover .overlay, #album-20:hover .overlay, #album-21:hover .overlay, #album-22:hover .overlay, #album-23:hover .overlay, #album-24:hover .overlay, 
+#album-25:hover .overlay, #album-26:hover .overlay, #album-27:hover .overlay, #album-28:hover .overlay, #album-29:hover .overlay, #album-30:hover .overlay, #album-31:hover .overlay, #album-32:hover .overlay,
+#album-33:hover .overlay {
+	opacity: 1;
+}
+
+.overlay {
+	transition: .3s ease;
+	background-color: #000000a2;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+}
+.overlay p {
+	color: white;
+	font-size: 14px;
+}
+
+.album-text {
+	padding: 2rem;
+}

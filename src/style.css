@@ -58,6 +58,10 @@ html, body {
 	.overlay p {
 		font-size: 12px;
 	}
+
+	.header-text {
+		margin-left: 0px;
+	}
 }
 
 .album-container img {

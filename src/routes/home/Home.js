@@ -8,7 +8,6 @@ const Home = () => {
             .then(resp => resp.json())
             .then(albumData => {
                 setAlbumData(albumData)
-                console.log(albumData)
             })
     }, [])
 
@@ -20,8 +19,6 @@ const Home = () => {
 
         tempAlbum.opacity = 1
         tempAlbumData[albumId - 1] = tempAlbum
-
-        console.log(tempAlbum, albumId)
 
         setAlbumData(tempAlbumData)
     }

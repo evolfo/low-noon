@@ -16,6 +16,18 @@ html, body {
 	box-sizing: border-box;
 }
 
+.home-container h1 {
+	margin-bottom: .8rem;
+}
+.home-container h3 {
+	margin-top: 0;
+}
+
+.header-text {
+	margin-left: 11px;
+	text-align: center;
+}
+
 .album-container {
 	position: relative;
 	width: 25%;
@@ -42,19 +54,15 @@ html, body {
 		width: 100%;
 		margin: 0;
 	}
+	
+	.overlay p {
+		font-size: 12px;
+	}
 }
 
 .album-container img {
 	width: 90%;
 	margin: 1rem;
-}
-
-#album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 
-#album-9:hover .overlay, #album-10:hover .overlay, #album-11:hover .overlay, #album-12:hover .overlay, #album-13:hover .overlay, #album-14:hover .overlay, #album-15:hover .overlay, #album-16:hover .overlay, 
-#album-17:hover .overlay, #album-18:hover .overlay, #album-19:hover .overlay, #album-20:hover .overlay, #album-21:hover .overlay, #album-22:hover .overlay, #album-23:hover .overlay, #album-24:hover .overlay, 
-#album-25:hover .overlay, #album-26:hover .overlay, #album-27:hover .overlay, #album-28:hover .overlay, #album-29:hover .overlay, #album-30:hover .overlay, #album-31:hover .overlay, #album-32:hover .overlay,
-#album-33:hover .overlay {
-	opacity: 1;
 }
 
 .overlay {
@@ -71,6 +79,19 @@ html, body {
 	font-size: 14px;
 }
 
+.overlay a {
+	color: #3ee4ff;
+	text-decoration: none;
+}
+
 .album-text {
 	padding: 2rem;
+}
+
+#album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 
+#album-9:hover .overlay, #album-10:hover .overlay, #album-11:hover .overlay, #album-12:hover .overlay, #album-13:hover .overlay, #album-14:hover .overlay, #album-15:hover .overlay, #album-16:hover .overlay, 
+#album-17:hover .overlay, #album-18:hover .overlay, #album-19:hover .overlay, #album-20:hover .overlay, #album-21:hover .overlay, #album-22:hover .overlay, #album-23:hover .overlay, #album-24:hover .overlay, 
+#album-25:hover .overlay, #album-26:hover .overlay, #album-27:hover .overlay, #album-28:hover .overlay, #album-29:hover .overlay, #album-30:hover .overlay, #album-31:hover .overlay, #album-32:hover .overlay,
+#album-33:hover .overlay {
+	opacity: 1;
 }

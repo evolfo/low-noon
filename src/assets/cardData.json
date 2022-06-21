@@ -1,200 +1,233 @@
 [
     {
         "id": 1,
-        "title": "The Smoking Circle",
-        "description": "artist/writer",
-        "url": "https://thesmokingcircle.bandcamp.com/album/the-smoking-circle"
+        "title": "Matthew Jamal featuring Elliott Skinner 'Blue Vervain'",
+        "description": "engineer/mixer",
+        "url": "https://matthewjamal.bandcamp.com/track/blue-vervain-feat-elliott-skinner",
+        "opacity": 0
     },
     {
         "id": 2,
-        "title": "Oyinda 'Before the Fall'",
-        "description": "co-producer/engineer",
-        "url": "https://soundcloud.com/oyinda/sets/before-the-fall"
+        "title": "Ben Pirani & The Means of Production",
+        "description": "instrumentalist/arranger/engineer/mixer",
+        "url": "https://benpirani.bandcamp.com/album/something-so-precious",
+        "opacity": 0
     },
     {
         "id": 3,
-        "title": "The Smoking Circle “Waste Time/I'll Be Gone”",
-        "description": "artist/writer",
-        "url": "https://thesmokingcircle.bandcamp.com/album/waste-time-ill-be-gone-single"
+        "title": "Evolfo 'Site Out Of Mind'",
+        "description": "artist/producer/writer/engineer/mixer",
+        "url": "https://evolfo.bandcamp.com/album/site-out-of-mind-2",
+        "opacity": 0
     },
     {
         "id": 4,
-        "title": "Low Noon 'Shut Eye'",
-        "description": "artist/producer/engineer/mixer/mastering",
-        "url": "https://lownoon.bandcamp.com/album/shut-eye"
+        "title": "Ochre 'Amnesia'",
+        "description": "producer/mixer",
+        "url": "https://0chre.bandcamp.com/releases",
+        "opacity": 0
     },
     {
         "id": 5,
-        "title": "Oyinda 'Restless Minds'",
-        "description": "co-producer/co-writer",
-        "url": "https://soundcloud.com/oyinda/sets/restless-minds-1"
+        "title": "Matthew Jamal Featuring Lau Noah – 'Something More Than This'",
+        "description": "mixer/engineer/mastering",
+        "url": "https://matthewjamal.bandcamp.com/track/something-more-than-this-feat-lau-noah",
+        "opacity": 0
     },
     {
         "id": 6,
-        "title": "Evolfo 'Last of the Acid Cowboys'",
-        "description": "artist/writer/co-producer/co-mixer",
-        "url": "https://evolfo.bandcamp.com/album/last-of-the-acid-cowboys-2"
+        "title": "Zebadiah – 'Happy Fun Time'",
+        "description": "instrumentalist/mixer",
+        "url": "https://open.spotify.com/artist/2GY9iCOvwAXlperK9lPOJV",
+        "opacity": 0
     },
     {
         "id": 7,
-        "title": "Ben Pirani “Art School Girl/It's Understanding” 7”",
-        "description": "instrumentalist/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/art-school-girl"
+        "title": "Azekel – Dupė",
+        "description": "tape engineer/mixdown",
+        "url": "https://azekel.bandcamp.com/track/dup",
+        "opacity": 0
     },
     {
         "id": 8,
-        "title": "Ben Pirani 'Brother' LP",
-        "description": "instrumentalist/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/how-do-i-talk-to-my-brother"
+        "title": "Azekel – SOHO",
+        "description": "tape engineer/mixdown",
+        "url": "https://azekel.bandcamp.com/track/soho",
+        "opacity": 0
     },
     {
         "id": 9,
-        "title": "The Du-Rites 'Gamma Ray Funk' 7”",
-        "description": "instrumentalist",
-        "url": "https://thedurites.bandcamp.com/album/gamma-ray-funk-b-w-fish-sammich-single"
+        "title": "Ben Pirani, Evolfo 7”",
+        "description": "producer/instrumentalist/arranger/mixer",
+        "url": "https://benpirani.bandcamp.com/album/benjis-peach-pit-evolfo-tries-love",
+        "opacity": 0
     },
     {
         "id": 10,
-        "title": "Benjamin Allen Adams 'Death in the West'",
-        "description": "mixer/producer",
-        "url": "https://open.spotify.com/album/4K6y6fw1MbPUTYPajkSZpx"
+        "title": "Ben Pirani, Ghost Funk Orchestra 'Modern Scene' 7”",
+        "description": "instrumentalist",
+        "url": "https://benpirani.bandcamp.com/album/modern-scene-remix",
+        "opacity": 0
     },
     {
         "id": 11,
-        "title": "Madison McFerrin 'Finding Foundations – The Remixes'",
-        "description": "remix artist/mixer 'No Time to Lose (Low Noon Remix)'",
-        "url": "https://madisonmcferrin.bandcamp.com/album/finding-foundations-the-remixes"
+        "title": "Elliott Skinner 'When Will We Know'",
+        "description": "mixer/mastering",
+        "url": "https://open.spotify.com/album/695ZfifRBCgg8n7qOPCfn5",
+        "opacity": 0
     },
     {
         "id": 12,
-        "title": "Garfield Flemming 'Garfield Flemming EP'",
-        "description": "instrumentalist on 'Hustlin'”",
-        "url": "https://garfieldfleming.bandcamp.com/"
+        "title": "Matthew Jamal 'Itinerant' EP",
+        "description": "mixer/engineer/mastering",
+        "url": "https://matthewjamal.bandcamp.com/album/itinerant",
+        "opacity": 0
     },
     {
         "id": 13,
-        "title": "Canteen Killa x Michael Wilbur x Low Noon 'Madcat'",
-        "description": "featured artist",
-        "url": "https://thecanteenkilla.bandcamp.com/track/mad-cat"
+        "title": "Low Noon 'Casio Compositions'",
+        "description": "artist/engineer/mixer/mastering",
+        "url": "https://lownoon.bandcamp.com/album/casio-compositions",
+        "opacity": 0
     },
     {
         "id": 14,
-        "title": "Canteen Killa 'RIDM'",
-        "description": "co-mixer/featured artist on 'RS-09 loop (Low Noon Blessings)'",
-        "url": "https://thecanteenkilla.bandcamp.com/album/r-i-d-m"
+        "title": "Ben Pirani + The Means of Production – 'Memory/Solitary Me' 7”",
+        "description": "instrumentalist/arranger/engineer/mixer",
+        "url": "https://benpirani.bandcamp.com/album/more-than-a-memory-solitary-me",
+        "opacity": 0
     },
     {
         "id": 15,
-        "title": "Canteen Killa '!AMV feat. Chris Lee-Rodriguez & 13th Law'",
-        "description": "mixer/mastering",
-        "url": "https://thecanteenkilla.bandcamp.com/track/amv-feat-chris-lee-rodriguez-13th-law"
+        "title": "Ben Pirani + The Means of Production - 'Dreamin’/That’s the Way it Goes' Live 7”",
+        "description": "instrumentalist/engineer/mixer",
+        "url": "https://benpirani.bandcamp.com/album/thats-the-way-it-goes",
+        "opacity": 0
     },
     {
         "id": 16,
-        "title": "Canteen Killa & Elliott Skinner",
-        "description": "mastering",
-        "url": "https://thecanteenkilla.bandcamp.com/track/be-honest"
+        "title": "Azekel & Anaïs 'Learn To Love'",
+        "description": "tape engineer/mixdown",
+        "url": "https://azekel.bandcamp.com/track/learn-to-love",
+        "opacity": 0
     },
     {
         "id": 17,
         "title": "Azekel 'Thrills featuring Oyinda'",
         "description": "engineer/tape engineer/mixdown",
-        "url": "https://soundcloud.com/thunderlightning/thrills-featuring-oyinda"
+        "url": "https://soundcloud.com/thunderlightning/thrills-featuring-oyinda",
+        "opacity": 0
     },
     {
         "id": 18,
-        "title": "Azekel & Anaïs 'Learn To Love'",
-        "description": "tape engineer/mixdown",
-        "url": "https://azekel.bandcamp.com/track/learn-to-love"
+        "title": "Canteen Killa & Elliott Skinner",
+        "description": "mastering",
+        "url": "https://thecanteenkilla.bandcamp.com/track/be-honest",
+        "opacity": 0
     },
     {
         "id": 19,
-        "title": "Ben Pirani + The Means of Production - 'Dreamin’/That’s the Way it Goes' Live 7”",
-        "description": "instrumentalist/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/thats-the-way-it-goes"
+        "title": "Canteen Killa '!AMV feat. Chris Lee-Rodriguez & 13th Law'",
+        "description": "mixer/mastering",
+        "url": "https://thecanteenkilla.bandcamp.com/track/amv-feat-chris-lee-rodriguez-13th-law",
+        "opacity": 0
     },
     {
         "id": 20,
-        "title": "Ben Pirani + The Means of Production – 'Memory/Solitary Me' 7”",
-        "description": "instrumentalist/arranger/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/more-than-a-memory-solitary-me"
+        "title": "Canteen Killa 'RIDM'",
+        "description": "co-mixer/featured artist on 'RS-09 loop (Low Noon Blessings)'",
+        "url": "https://thecanteenkilla.bandcamp.com/album/r-i-d-m",
+        "opacity": 0
     },
     {
         "id": 21,
-        "title": "Low Noon 'Casio Compositions'",
-        "description": "artist/engineer/mixer/mastering",
-        "url": "https://lownoon.bandcamp.com/album/casio-compositions"
+        "title": "Canteen Killa x Michael Wilbur x Low Noon 'Madcat'",
+        "description": "featured artist",
+        "url": "https://thecanteenkilla.bandcamp.com/track/mad-cat",
+        "opacity": 0
     },
     {
         "id": 22,
-        "title": "Matthew Jamal 'Itinerant' EP",
-        "description": "mixer/engineer/mastering",
-        "url": "https://matthewjamal.bandcamp.com/album/itinerant"
+        "title": "Garfield Flemming 'Garfield Flemming EP'",
+        "description": "instrumentalist on 'Hustlin'”",
+        "url": "https://garfieldfleming.bandcamp.com/",
+        "opacity": 0
     },
     {
         "id": 23,
-        "title": "Elliott Skinner 'When Will We Know'",
-        "description": "mixer/mastering",
-        "url": "https://open.spotify.com/album/695ZfifRBCgg8n7qOPCfn5"
+        "title": "Madison McFerrin 'Finding Foundations – The Remixes'",
+        "description": "remix artist/mixer 'No Time to Lose (Low Noon Remix)'",
+        "url": "https://madisonmcferrin.bandcamp.com/album/finding-foundations-the-remixes",
+        "opacity": 0
     },
     {
         "id": 24,
-        "title": "Ben Pirani, Ghost Funk Orchestra 'Modern Scene' 7”",
-        "description": "instrumentalist",
-        "url": "https://benpirani.bandcamp.com/album/modern-scene-remix"
+        "title": "Benjamin Allen Adams 'Death in the West'",
+        "description": "mixer/producer",
+        "url": "https://open.spotify.com/album/4K6y6fw1MbPUTYPajkSZpx",
+        "opacity": 0
     },
     {
         "id": 25,
-        "title": "Ben Pirani, Evolfo 7”",
-        "description": "producer/instrumentalist/arranger/mixer",
-        "url": "https://benpirani.bandcamp.com/album/benjis-peach-pit-evolfo-tries-love"
+        "title": "The Du-Rites 'Gamma Ray Funk' 7”",
+        "description": "instrumentalist",
+        "url": "https://thedurites.bandcamp.com/album/gamma-ray-funk-b-w-fish-sammich-single",
+        "opacity": 0
     },
     {
         "id": 26,
-        "title": "Azekel – SOHO",
-        "description": "tape engineer/mixdown",
-        "url": "https://azekel.bandcamp.com/track/soho"
+        "title": "Ben Pirani 'Brother' LP",
+        "description": "instrumentalist/engineer/mixer",
+        "url": "https://benpirani.bandcamp.com/album/how-do-i-talk-to-my-brother",
+        "opacity": 0
     },
     {
         "id": 27,
-        "title": "Azekel – Dupė",
-        "description": "tape engineer/mixdown",
-        "url": "https://azekel.bandcamp.com/track/dup"
+        "title": "Ben Pirani “Art School Girl/It's Understanding” 7”",
+        "description": "instrumentalist/engineer/mixer",
+        "url": "https://benpirani.bandcamp.com/album/art-school-girl",
+        "opacity": 0
     },
     {
         "id": 28,
-        "title": "Zebadiah – 'Happy Fun Time'",
-        "description": "instrumentalist/mixer",
-        "url": "https://open.spotify.com/artist/2GY9iCOvwAXlperK9lPOJV"
+        "title": "Evolfo 'Last of the Acid Cowboys'",
+        "description": "artist/writer/co-producer/co-mixer",
+        "url": "https://evolfo.bandcamp.com/album/last-of-the-acid-cowboys-2",
+        "opacity": 0
     },
     {
         "id": 29,
-        "title": "Matthew Jamal Featuring Lau Noah – 'Something More Than This'",
-        "description": "mixer/engineer/mastering",
-        "url": "https://matthewjamal.bandcamp.com/track/something-more-than-this-feat-lau-noah"
+        "title": "Oyinda 'Restless Minds'",
+        "description": "co-producer/co-writer",
+        "url": "https://soundcloud.com/oyinda/sets/restless-minds-1",
+        "opacity": 0
     },
     {
         "id": 30,
-        "title": "Ochre 'Amnesia'",
-        "description": "producer/mixer",
-        "url": "https://0chre.bandcamp.com/releases"
+        "title": "Low Noon 'Shut Eye'",
+        "description": "artist/producer/engineer/mixer/mastering",
+        "url": "https://lownoon.bandcamp.com/album/shut-eye",
+        "opacity": 0
     },
     {
         "id": 31,
-        "title": "Evolfo 'Site Out Of Mind'",
-        "description": "artist/producer/writer/engineer/mixer",
-        "url": "https://evolfo.bandcamp.com/album/site-out-of-mind-2"
+        "title": "The Smoking Circle “Waste Time/I'll Be Gone”",
+        "description": "artist/writer",
+        "url": "https://thesmokingcircle.bandcamp.com/album/waste-time-ill-be-gone-single",
+        "opacity": 0
     },
     {
         "id": 32,
-        "title": "Ben Pirani & The Means of Production",
-        "description": "instrumentalist/arranger/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/something-so-precious"
+        "title": "Oyinda 'Before the Fall'",
+        "description": "co-producer/engineer",
+        "url": "https://soundcloud.com/oyinda/sets/before-the-fall",
+        "opacity": 0
     },
     {
         "id": 33,
-        "title": "Matthew Jamal featuring Elliott Skinner 'Blue Vervain'",
-        "description": "engineer/mixer",
-        "url": "https://matthewjamal.bandcamp.com/track/blue-vervain-feat-elliott-skinner"
+        "title": "The Smoking Circle",
+        "description": "artist/writer",
+        "url": "https://thesmokingcircle.bandcamp.com/album/the-smoking-circle",
+        "opacity": 0
     }
 ]

@@ -71,7 +71,7 @@ html, body {
 
 .overlay {
 	transition: .3s ease;
-	background-color: #000000a2;
+	background-color: #000000c0;
 	opacity: 0;
 	position: absolute;
 	top: 0;
@@ -90,6 +90,7 @@ html, body {
 
 .album-text {
 	padding: 2rem;
+	overflow-wrap: break-word;
 }
 
 #album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 

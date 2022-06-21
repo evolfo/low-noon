@@ -21,11 +21,29 @@ html, body {
 }
 .home-container h3 {
 	margin-top: 0;
+	margin-bottom: .9rem;
 }
 
 .header-text {
 	margin-left: 11px;
 	text-align: center;
+}
+
+.header-text button {
+	padding: .5rem 1rem;
+	font-size: 16px;
+	background: black;
+	border: 1px solid #0000002e;
+	border-radius: 4px;
+	color: white;
+	text-transform: capitalize;
+	letter-spacing: 2px;
+	margin-bottom: 1rem;
+	transition: .3s;
+}
+.header-text button:hover {
+	cursor: pointer;
+	background: grey;
 }
 
 .album-container {

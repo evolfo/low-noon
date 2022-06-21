@@ -61,6 +61,7 @@ const Home = () => {
             <div className="header-text">
                 <h1>Rafferty Swink</h1>
                 <h3>Musician, Producer, Mixer</h3>
+                <a href="mailto:rswinkmusic@gmail.com"><button>Contact</button></a>
             </div>
             {renderCards}
 		</div>

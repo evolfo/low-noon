@@ -7,6 +7,10 @@ html, body {
 	background: #36005dde;
 }
 
+body > div {
+	background: #36005dde;
+}
+
 .home-container {
 	width: 100%;
 	max-width: 1300px;

@@ -14,6 +14,7 @@ html, body {
 	padding-left: 4rem;
 	padding-right: 4rem;
 	box-sizing: border-box;
+	background: #36005dde;
 }
 
 .home-container h1 {
@@ -27,6 +28,7 @@ html, body {
 .header-text {
 	margin-left: 11px;
 	text-align: center;
+	color: #A2AEB7;
 }
 
 .header-text button {

@@ -84,6 +84,10 @@ body > div {
 		font-size: 12px;
 	}
 
+	.overlay > .album-text p:nth-child(2) {
+		font-size: 10px;
+	}
+
 	.header-text {
 		margin-left: 0px;
 	}

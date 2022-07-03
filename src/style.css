@@ -13,7 +13,7 @@ body > div {
 }
 
 .background-image {
-	background: url('/assets/background.jpg');
+	background: url('/assets/background-img.jpg');
 	position: fixed;
     display: block;
     top: 0;

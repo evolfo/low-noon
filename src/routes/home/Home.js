@@ -31,7 +31,7 @@ const Home = () => {
   const renderCards = useMemo(
     () =>
       albumData?.map((album, idx) => {
-        if (true) {
+        if (/Mobi|Android/i.test(navigator.userAgent)) {
           return (
             <div
               id={`album-${album.id}`}

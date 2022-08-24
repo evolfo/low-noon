@@ -14,22 +14,24 @@ const Home = () => {
       });
   }, []);
 
-  const handleAlbumClickMobile = (albumId) => {
+  const handleAlbumClickMobile = (idx) => {
     const tempAlbumData = [...albumData];
-    const tempAlbum = { ...tempAlbumData[albumId - 1] };
+    const tempAlbum = { ...tempAlbumData[idx] };
+
+    console.log(tempAlbum, idx)
 
     tempAlbumData.map((album) => (album.opacity = 0));
 
     tempAlbum.opacity = 1;
-    tempAlbumData[albumId - 1] = tempAlbum;
+    tempAlbumData[idx] = tempAlbum;
 
     setAlbumData(tempAlbumData);
   };
 
   const renderCards = useMemo(
     () =>
-      albumData?.map((album) => {
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
+      albumData?.map((album, idx) => {
+        if (true) {
           return (
             <div
               id={`album-${album.id}`}
@@ -38,7 +40,7 @@ const Home = () => {
             >
               <img src={`/assets/albums/${album.id}.jpg`}></img>
               <div
-                onClick={() => handleAlbumClickMobile(album.id)}
+                onClick={() => handleAlbumClickMobile(idx)}
                 className="overlay"
                 style={{ opacity: album.opacity }}
               >

@@ -148,10 +148,10 @@ body > div {
 	letter-spacing: -.5px;
 }
 
-#album-0:hover .overlay, #album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 
+#album-1:hover .overlay, #album-2:hover .overlay, #album-3:hover .overlay, #album-4:hover .overlay, #album-5:hover .overlay, #album-6:hover .overlay, #album-7:hover .overlay, #album-8:hover .overlay, 
 #album-9:hover .overlay, #album-10:hover .overlay, #album-11:hover .overlay, #album-12:hover .overlay, #album-13:hover .overlay, #album-14:hover .overlay, #album-15:hover .overlay, #album-16:hover .overlay, 
 #album-17:hover .overlay, #album-18:hover .overlay, #album-19:hover .overlay, #album-20:hover .overlay, #album-21:hover .overlay, #album-22:hover .overlay, #album-23:hover .overlay, #album-24:hover .overlay, 
 #album-25:hover .overlay, #album-26:hover .overlay, #album-27:hover .overlay, #album-28:hover .overlay, #album-29:hover .overlay, #album-30:hover .overlay, #album-31:hover .overlay, #album-32:hover .overlay,
-#album-33:hover .overlay {
+#album-33:hover .overlay, #album-34:hover .overlay {
 	opacity: 1;
 }

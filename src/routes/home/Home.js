@@ -18,8 +18,6 @@ const Home = () => {
     const tempAlbumData = [...albumData];
     const tempAlbum = { ...tempAlbumData[idx] };
 
-    console.log(tempAlbum, idx)
-
     tempAlbumData.map((album) => (album.opacity = 0));
 
     tempAlbum.opacity = 1;

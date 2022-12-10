@@ -8,6 +8,13 @@
         "opacity": 0
     },
     {
+        "id": 40,
+        "title": "Evolfo 'Site Out Of Mind Live From The Sound Home'",
+        "description": "artist/engineer",
+        "url": "https://www.youtube.com/watch?v=Hc9DOL8O8kY&ab_channel=RECORDBARRADIO",
+        "opacity": 0
+    },
+    {
         "id": 37,
         "title": "Evolfo 'The Changer'",
         "description": "artist/producer/writer/engineer/mixer",
@@ -19,6 +26,13 @@
         "title": "Ochre 'Pretending'",
         "description": "producer/mixer",
         "url": "https://0chre.bandcamp.com/album/pretending",
+        "opacity": 0
+    },
+    {
+        "id": 39,
+        "title": "Oyinda 'Collina Strada SS23 Original Score & Pre Show Music'",
+        "description": "performer/coproducer/engineer",
+        "url": "https://www.youtube.com/watch?v=EQ3ASQkCjgM&ab_channel=COLLINASTRADA",
         "opacity": 0
     },
     {

@@ -1,6 +1,6 @@
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "preact/hooks";
 
-const Home = () => {
+const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const [albumData, setAlbumData] = useState([]);
 
   // When you add new albums, don't forget to add the corresponding
@@ -36,7 +36,10 @@ const Home = () => {
               className="album-container"
               key={album.id}
             >
-              <img src={`/assets/albums/${album.id}.jpg`}></img>
+              <img
+                alt={`${album.title} album title artwork.`}
+                src={`/assets/albums/${album.id}.jpg`}
+              ></img>
               <div
                 onClick={() => handleAlbumClickMobile(idx)}
                 className="overlay"
@@ -66,7 +69,10 @@ const Home = () => {
               key={album.id}
             >
               <a href={album.url} target="_blank" rel="noopenner noreferrer">
-                <img src={`/assets/albums/${album.id}.jpg`}></img>
+                <img
+                  alt={`${album.title} album title artwork.`}
+                  src={`/assets/albums/${album.id}.jpg`}
+                ></img>
                 <div className="overlay">
                   <div className="album-text">
                     <p>{album.title}</p>
@@ -89,6 +95,13 @@ const Home = () => {
         <a href="mailto:rswinkmusic@gmail.com">
           <button>Contact</button>
         </a>
+        <div onClick={handleLightswitchClick} className="lightswitch-container">
+          {isLightSwitchOn ? (
+            <img alt="Lightswitch is on" src="/assets/lightswitch-on.png" />
+          ) : (
+            <img alt="Lightswitch is off" src="/assets/lightswitch-off.png" />
+          )}
+        </div>
       </div>
       {renderCards}
     </div>

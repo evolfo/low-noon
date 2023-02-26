@@ -55,6 +55,7 @@ body > div {
 	text-align: center;
 	color: #D2D8DC;
 	margin-bottom: 3rem;
+	position: relative;
 }
 
 .header-text button {
@@ -77,6 +78,16 @@ body > div {
 	position: relative;
 	width: 25%;
 	display: inline-block;
+}
+
+.lightswitch-container {
+	position: absolute;
+	top: 0;
+}
+
+.lightswitch-container img {
+	max-width: 50px;
+	cursor: pointer;
 }
 
 @media screen and (max-width: 1100px) {

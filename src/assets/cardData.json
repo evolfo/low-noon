@@ -1,6 +1,13 @@
 
 [
     {
+        "id": 42,
+        "title": "babyfang 'Goan Go'",
+        "description": "producer/engineer/mixer",
+        "url": "https://webabyfang.bandcamp.com/track/goan-go",
+        "opacity": 0
+    },
+    {
         "id": 38,
         "title": "The Du-Rites 'Plug It In'",
         "description": "additional recording on 'Hole in the Wall'",
@@ -19,6 +26,13 @@
         "title": "Evolfo 'The Changer'",
         "description": "artist/producer/writer/engineer/mixer",
         "url": "https://evolfo.bandcamp.com/album/the-changer",
+        "opacity": 0
+    },
+    {
+        "id": 41,
+        "title": "Castle Rat 'Feed The Dream' ",
+        "description": "mixer",
+        "url": "https://castleratband.bandcamp.com/track/feed-the-dream-2",
         "opacity": 0
     },
     {
@@ -142,7 +156,7 @@
     },
     {
         "id": 14,
-        "title": "Ben Pirani + The Means of Production – 'Memory/Solitary Me' 7”",
+        "title": "Ben Pirani + The Means of Production - 'Memory/Solitary Me' 7”",
         "description": "instrumentalist/arranger/engineer/mixer",
         "url": "https://benpirani.bandcamp.com/album/more-than-a-memory-solitary-me",
         "opacity": 0

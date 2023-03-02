@@ -1,13 +1,10 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
 
-const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
+const ThomasGWeed = () => {
   const [albumData, setAlbumData] = useState([]);
 
-  // When you add new albums, don't forget to add the corresponding
-  // CSS class at the bottom of style.css
-
   useEffect(() => {
-    fetch("/assets/cardData.json")
+    fetch("/assets/thomasGweedData.json")
       .then((resp) => resp.json())
       .then((albumData) => {
         setAlbumData(albumData);
@@ -38,7 +35,7 @@ const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
             >
               <img
                 alt={`${album.title} album title artwork.`}
-                src={`/assets/albums/${album.id}.jpg`}
+                src={`/assets/thomasGweed/covers/${album.id}.jpg`}
               ></img>
               <div
                 onClick={() => handleAlbumClickMobile(idx)}
@@ -50,9 +47,9 @@ const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
                   <p>{album.description}</p>
                   <p>
                     <a
-                      href={album.url}
+                      download
                       target="_blank"
-                      rel="noopenner noreferrer"
+                      href={album.url}
                     >
                       Listen
                     </a>
@@ -68,10 +65,10 @@ const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
               className="album-container"
               key={album.id}
             >
-              <a href={album.url} target="_blank" rel="noopenner noreferrer">
+              <a target="_blank" href={album.url} download>
                 <img
                   alt={`${album.title} album title artwork.`}
-                  src={`/assets/albums/${album.id}.jpg`}
+                  src={`/assets/thomasGweed/covers/${album.id}.jpg`}
                 ></img>
                 <div className="overlay">
                   <div className="album-text">
@@ -87,9 +84,7 @@ const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
     [albumData]
   );
 
-  return (
-      <>{renderCards}</>
-  );
+  return <>{renderCards}</>;
 };
 
-export default Home;
+export default ThomasGWeed;

@@ -14,6 +14,13 @@ body > div {
 
 .background-image {
 	background: url('/assets/background-img.jpg');
+}
+
+.background-image-blue {
+	background: url('/assets/background-img-blue.jpg')
+}
+
+.background-image, .background-image-blue {
 	position: fixed;
     display: block;
     top: 0;
@@ -81,13 +88,21 @@ body > div {
 }
 
 .lightswitch-container {
-	position: absolute;
-	top: 0;
+	color: white;
+}
+
+.lightswitch-container:hover {
+	cursor: pointer;
 }
 
 .lightswitch-container img {
-	max-width: 50px;
+	max-width: 40px;
 	cursor: pointer;
+}
+
+.lightswitch-container h5 {
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 @media screen and (max-width: 1100px) {
@@ -121,6 +136,17 @@ body > div {
 
 	.header-text {
 		margin-left: 0px;
+		text-align: right;
+	}
+
+	.lightswitch-container img {
+		max-width: 40px;
+		cursor: pointer;
+	}
+
+	.home-container {
+		padding-left: 2rem;
+		padding-right: 2rem;
 	}
 }
 
@@ -139,9 +165,13 @@ body > div {
 	height: 100%;
 	font-size: 14px;
 }
+
+.overlay:hover {
+	cursor: pointer;
+}
+
 .overlay p {
 	color: white;
-	
 }
 
 .overlay a {

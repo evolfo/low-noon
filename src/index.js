@@ -2,7 +2,7 @@ import "./style";
 import { useEffect, useState } from "preact/hooks";
 import Router, { route, getCurrentUrl } from "preact-router";
 import Home from "./routes/home/Home";
-import ThomasGWeed from "./routes/thomasGweed/thomasGweed";
+import ThomasGWeed from "./routes/thomasGweed/ThomasGweed";
 
 export default function App() {
   const [isLightSwitchOn, setIsLightSwitchOn] = useState(false);

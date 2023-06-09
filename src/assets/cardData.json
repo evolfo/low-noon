@@ -1,6 +1,27 @@
 
 [
     {
+        "id": 46,
+        "title": "Tre D'Ambrocia & The Means Of Production 'Closer' 7\"",
+        "description": "mixer/engineer",
+        "url": "https://benpirani.bandcamp.com/album/closer-love-is-gonna-let-you-down",
+        "opacity": 0
+    },
+    {
+        "id": 45,
+        "title": "Certain Death 'Certain Death'",
+        "description": "producer/engineer/mixer",
+        "url": "https://distrokid.com/hyperfollow/certaindeath1/certain-death",
+        "opacity": 0
+    },
+    {
+        "id": 44,
+        "title": "Abeni Moreno 'Sometimes'",
+        "description": "original score by Low Noon",
+        "url": "https://www.youtube.com/watch?v=3-d9oiK8GFc&ab_channel=AbeniMoreno",
+        "opacity": 0
+    },
+    {
         "id": 43,
         "title": "babyfang 'In The Face Of'",
         "description": "producer/engineer/mixer",
@@ -72,9 +93,9 @@
     },
     {
         "id": 2,
-        "title": "Ben Pirani & The Means of Production",
+        "title": "Ben Pirani & The Means Of Production Featuring Brian Jackson 'I Know It Hurts' 7\"",
         "description": "instrumentalist/arranger/engineer/mixer",
-        "url": "https://benpirani.bandcamp.com/album/something-so-precious",
+        "url": "https://benpirani.bandcamp.com/album/i-know-it-hurts-something-so-precious",
         "opacity": 0
     },
     {

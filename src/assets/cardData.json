@@ -3,15 +3,22 @@
     {
         "id": 46,
         "title": "Tre D'Ambrocia & The Means Of Production 'Closer' 7\"",
-        "description": "mixer/engineer",
+        "description": "instrumentalist/engineer/mixer",
         "url": "https://benpirani.bandcamp.com/album/closer-love-is-gonna-let-you-down",
+        "opacity": 0
+    },
+    {
+        "id": 47,
+        "title": "Ralph Weeks & The Means Of Production 'Nobody Loves Me (Like You Do)/Got To Keep On Trying' 7\"",
+        "description": "instrumentalist/engineer/mixer",
+        "url": "https://nyctrust.bandcamp.com/album/nobody-loves-me-like-you-do",
         "opacity": 0
     },
     {
         "id": 45,
         "title": "Certain Death 'Certain Death'",
         "description": "producer/engineer/mixer",
-        "url": "https://distrokid.com/hyperfollow/certaindeath1/certain-death",
+        "url": "https://open.spotify.com/album/7eNFDx9OZVxFAoKNKM26sZ?si=P3zgscvDQq-gmNWrs3sqjg",
         "opacity": 0
     },
     {

@@ -1,6 +1,13 @@
 
 [
     {
+        "id": 48,
+        "title": "El Soulo Duo 'Sola En La Disco'",
+        "description": "artist/coproducer/mixer/mastering",
+        "url": "https://elsouloduo.bandcamp.com/track/sola-en-la-disco",
+        "opacity": 0
+    },
+    {
         "id": 46,
         "title": "Tre D'Ambrocia & The Means Of Production 'Closer' 7\"",
         "description": "instrumentalist/engineer/mixer",

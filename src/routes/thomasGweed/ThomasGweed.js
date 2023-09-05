@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
+import browserEnv from 'browser-env';
 
 const ThomasGWeed = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const [albumData, setAlbumData] = useState([]);
@@ -26,7 +27,7 @@ const ThomasGWeed = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const renderCards = useMemo(
     () =>
       albumData?.map((album, idx) => {
-        if (/Mobi|Android/i.test(navigator.userAgent)) {
+        if (/Mobi|Android/i.test(browserEnv['navigator'].userAgent)) {
           return (
             <>
               {idx === 5 && (

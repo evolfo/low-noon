@@ -55,7 +55,7 @@ export default function App() {
           />
         )}
       </Router>
-      {!(/Mobi|Android/i.test(navigator.userAgent)) &&
+      {!!navigator && !(/Mobi|Android/i.test(navigator.userAgent)) &&
         <div onClick={handleLightswitchClick} className="lightswitch-container">
           <h5>TGW</h5>
               {isLightSwitchOn ? (

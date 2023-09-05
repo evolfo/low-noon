@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
 
-const ThomasGWeed = () => {
+const ThomasGWeed = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const [albumData, setAlbumData] = useState([]);
 
   useEffect(() => {
@@ -28,35 +28,48 @@ const ThomasGWeed = () => {
       albumData?.map((album, idx) => {
         if (/Mobi|Android/i.test(navigator.userAgent)) {
           return (
-            <div
-              id={`album-${album.id}`}
-              className="album-container"
-              key={album.id}
-            >
-              <img
-                alt={`${album.title} album title artwork.`}
-                src={`/assets/thomasGweed/covers/${album.id}.jpg`}
-              ></img>
+            <>
+              {idx === 5 && (
+                <div onClick={handleLightswitchClick} className="lightswitch-container lightswitch-mobile">
+                  <h5>TGW</h5>
+                      {isLightSwitchOn ? (
+                        <img alt="Lightswitch is on" src="/assets/lightswitch-on.png" />
+                      ) : (
+                        <img alt="Lightswitch is off" src="/assets/lightswitch-off.png" />
+                      )}
+                  <h5>LN</h5>
+                </div>
+              )}
               <div
-                onClick={() => handleAlbumClickMobile(idx)}
-                className="overlay"
-                style={{ opacity: album.opacity }}
+                id={`album-${album.id}`}
+                className="album-container"
+                key={album.id}
               >
-                <div className="album-text">
-                  <p>{album.title}</p>
-                  <p>{album.description}</p>
-                  <p>
-                    <a
-                      download
-                      target="_blank"
-                      href={album.url}
-                    >
-                      Listen
-                    </a>
-                  </p>
+                <img
+                  alt={`${album.title} album title artwork.`}
+                  src={`/assets/thomasGweed/covers/${album.id}.jpg`}
+                ></img>
+                <div
+                  onClick={() => handleAlbumClickMobile(idx)}
+                  className="overlay"
+                  style={{ opacity: album.opacity }}
+                >
+                  <div className="album-text">
+                    <p>{album.title}</p>
+                    <p>{album.description}</p>
+                    <p>
+                      <a
+                        download
+                        target="_blank"
+                        href={album.url}
+                      >
+                        Listen
+                      </a>
+                    </p>
+                  </div>
                 </div>
               </div>
-            </div>
+            </>
           );
         } else {
           return (

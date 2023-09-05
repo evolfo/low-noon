@@ -55,15 +55,17 @@ export default function App() {
           />
         )}
       </Router>
-	  <div onClick={handleLightswitchClick} className="lightswitch-container">
-		  <h5>TGW</h5>
-          {isLightSwitchOn ? (
-            <img alt="Lightswitch is on" src="/assets/lightswitch-on.png" />
-          ) : (
-            <img alt="Lightswitch is off" src="/assets/lightswitch-off.png" />
-          )}
-		  <h5>LN</h5>
+      {!(/Mobi|Android/i.test(navigator.userAgent)) &&
+        <div onClick={handleLightswitchClick} className="lightswitch-container">
+          <h5>TGW</h5>
+              {isLightSwitchOn ? (
+                <img alt="Lightswitch is on" src="/assets/lightswitch-on.png" />
+              ) : (
+                <img alt="Lightswitch is off" src="/assets/lightswitch-off.png" />
+              )}
+          <h5>LN</h5>
         </div>
+      }
       {isLightSwitchOn ? (
         <div className="background-image-blue" />
       ) : (

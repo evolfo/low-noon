@@ -1,10 +1,31 @@
 
 [
     {
+        "id": 51,
+        "title": "J-Zone 'Intoxicated Skull' (Madlib Invasion Music Library Series Volume 3)",
+        "description": "instrumentalist/coproducer/comixer",
+        "url": "https://mils.bandcamp.com/album/mils003-intoxicated-skull",
+        "opacity": 0
+    },
+    {
+        "id": 49,
+        "title": "Certain Death 'When She Ain't Around'",
+        "description": "producer/engineer/mixer",
+        "url": "https://open.spotify.com/album/6lIWntTLDfc4E94wRGGJU2",
+        "opacity": 0
+    },
+    {
         "id": 48,
         "title": "El Soulo Duo 'Sola En La Disco'",
         "description": "artist/coproducer/mixer/mastering",
         "url": "https://elsouloduo.bandcamp.com/track/sola-en-la-disco",
+        "opacity": 0
+    },
+    {
+        "id": 50,
+        "title": "El Soulo Duo 'Entonada'",
+        "description": "artist/coproducer/mixer/mastering",
+        "url": "https://elsouloduo.bandcamp.com/track/entonada",
         "opacity": 0
     },
     {

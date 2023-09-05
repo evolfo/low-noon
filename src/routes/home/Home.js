@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "preact/hooks";
-import browserEnv from 'browser-env';
+// import browserEnv from 'browser-env';
 
 const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const [albumData, setAlbumData] = useState([]);
@@ -30,7 +30,7 @@ const Home = ({ isLightSwitchOn, handleLightswitchClick }) => {
   const renderCards = useMemo(
     () =>
       albumData?.map((album, idx) => {
-        if (/Mobi|Android/i.test(browserEnv['navigator'].userAgent)) {
+        if (!!navigator && /Mobi|Android/i.test(navigator.userAgent)) {
           return (
             <>
               {idx === 5 && (

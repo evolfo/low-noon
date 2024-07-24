@@ -1,6 +1,41 @@
 
 [
     {
+        "id": 58,
+        "title": "El Soulo Duo 'El Soulo Duo' collaboration with El Oms",
+        "description": "artist/coproducer/mixer",
+        "url": "https://elsouloduo.bandcamp.com/album/el-soulo-duo",
+        "opacity": 0
+    },
+    {
+        "id": 57,
+        "title": "The Means Of Production 'The Means Of Production'",
+        "description": "instrumentalist/producer/engineer/mixer",
+        "url": "https://themeansofproduction.bandcamp.com/album/the-means-of-production",
+        "opacity": 0
+    },
+    {
+        "id": 56,
+        "title": "NAIMA 'City Lights'",
+        "description": "mixer/engineer",
+        "url": "https://daughteroftheculture.bandcamp.com/album/city-lights-ep",
+        "opacity": 0
+    },
+    {
+        "id": 55,
+        "title": "Castle Rat 'Into The Realm'",
+        "description": "mixer/wizardy/synth/additional mystical sounds",
+        "url": "https://castleratband.bandcamp.com/album/into-the-realm-2",
+        "opacity": 0
+    },
+    {
+        "id": 54,
+        "title": "Oyinda and Rafferty Swink 'Collina Strada AW24 Runway Original Score & Pre Show Music'",
+        "description": "performer/coproducer/engineer/mixer",
+        "url": "https://www.youtube.com/watch?v=bmmwgtB4BtQ&t=15s&ab_channel=COLLINASTRADA",
+        "opacity": 0
+    },
+    {
         "id": 51,
         "title": "J-Zone 'Intoxicated Skull' (Madlib Invasion Music Library Series Volume 3)",
         "description": "instrumentalist/coproducer/comixer",
@@ -22,27 +57,6 @@
         "opacity": 0
     },
     {
-        "id": 49,
-        "title": "Certain Death 'When She Ain't Around'",
-        "description": "producer/engineer/mixer",
-        "url": "https://open.spotify.com/album/6lIWntTLDfc4E94wRGGJU2",
-        "opacity": 0
-    },
-    {
-        "id": 48,
-        "title": "El Soulo Duo 'Sola En La Disco'",
-        "description": "artist/coproducer/mixer/mastering",
-        "url": "https://elsouloduo.bandcamp.com/track/sola-en-la-disco",
-        "opacity": 0
-    },
-    {
-        "id": 50,
-        "title": "El Soulo Duo 'Entonada'",
-        "description": "artist/coproducer/mixer/mastering",
-        "url": "https://elsouloduo.bandcamp.com/track/entonada",
-        "opacity": 0
-    },
-    {
         "id": 46,
         "title": "Tre D'Ambrocia & The Means Of Production 'Closer' 7\"",
         "description": "instrumentalist/engineer/mixer",
@@ -54,6 +68,13 @@
         "title": "Ralph Weeks & The Means Of Production 'Nobody Loves Me (Like You Do)/Got To Keep On Trying' 7\"",
         "description": "instrumentalist/engineer/mixer",
         "url": "https://nyctrust.bandcamp.com/album/nobody-loves-me-like-you-do",
+        "opacity": 0
+    },
+    {
+        "id": 49,
+        "title": "Certain Death 'When She Ain't Around'",
+        "description": "producer/engineer/mixer",
+        "url": "https://open.spotify.com/album/6lIWntTLDfc4E94wRGGJU2",
         "opacity": 0
     },
     {
@@ -78,13 +99,6 @@
         "opacity": 0
     },
     {
-        "id": 42,
-        "title": "babyfang 'Goan Go'",
-        "description": "producer/engineer/mixer",
-        "url": "https://webabyfang.bandcamp.com/track/goan-go",
-        "opacity": 0
-    },
-    {
         "id": 38,
         "title": "The Du-Rites 'Plug It In'",
         "description": "additional recording on 'Hole in the Wall'",
@@ -103,13 +117,6 @@
         "title": "Evolfo 'The Changer'",
         "description": "artist/producer/writer/engineer/mixer",
         "url": "https://evolfo.bandcamp.com/album/the-changer",
-        "opacity": 0
-    },
-    {
-        "id": 41,
-        "title": "Castle Rat 'Feed The Dream' ",
-        "description": "mixer",
-        "url": "https://castleratband.bandcamp.com/track/feed-the-dream-2",
         "opacity": 0
     },
     {

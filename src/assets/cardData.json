@@ -1,6 +1,48 @@
 
 [
     {
+        "id": 65,
+        "title": "Matt Hull 'The Quiet Car'",
+        "description": "mixer/engineer",
+        "url": "https://matthullmusic.bandcamp.com/track/the-quiet-car",
+        "opacity": 0
+    },
+    {
+        "id": 64,
+        "title": "Oyinda and Low Noon 'Collina Strada AW25 Runway Original Score'",
+        "description": "performer/coproducer/engineer/mixer",
+        "url": "https://www.youtube.com/watch?v=rHtuu3prBRI&ab_channel=COLLINASTRADA",
+        "opacity": 0
+    },
+    {
+        "id": 63,
+        "title": "Matanda 'Automatic'",
+        "description": "performer/coproducer/engineer/mixer",
+        "url": "https://open.spotify.com/album/2RT33quQp3UD5azRhYSNIW?go=1&nd=1&dlsi=789e2e2aec0f4c30",
+        "opacity": 0
+    },
+    {
+        "id": 62,
+        "title": "Oyinda and Low Noon 'Collina Strada SS25 Runway Original Score'",
+        "description": "performer/coproducer/engineer/mixer",
+        "url": "https://www.youtube.com/watch?v=DPhKv9sS4nY&t=102s&ab_channel=COLLINASTRADA",
+        "opacity": 0
+    },
+    {
+        "id": 61,
+        "title": "Certain Death 'Strange Garden'",
+        "description": "producer/engineer/mixer",
+        "url": "https://certaindeathofficial.bandcamp.com/album/strange-garden",
+        "opacity": 0
+    },
+    {
+        "id": 60,
+        "title": "canteenkilla and Low Noon 'A Dedication'",
+        "description": "artist/coproducer/mixer/mastering",
+        "url": "https://lownoon.bandcamp.com/album/a-dedication",
+        "opacity": 0
+    },
+    {
         "id": 58,
         "title": "El Soulo Duo 'El Soulo Duo' collaboration with El Oms",
         "description": "artist/coproducer/mixer",

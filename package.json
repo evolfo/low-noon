@@ -16,7 +16,7 @@
     "build/*"
   ],
   "engines": {
-    "node": "21.x"
+    "node": "18.x"
   },
   "devDependencies": {
     "eslint": "^7.17.0",

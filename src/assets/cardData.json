@@ -1,10 +1,59 @@
 
 [
     {
-        "id": 65,
-        "title": "Matt Hull 'The Quiet Car'",
-        "description": "mixer/engineer",
-        "url": "https://matthullmusic.bandcamp.com/track/the-quiet-car",
+        "id": 73,
+        "title": "Matt C White 'The Flood'",
+        "description": "engineer/mixer",
+        "url": "https://mattcwhite.bandcamp.com/album/the-flood-2",
+        "opacity": 0
+    },
+    {
+        "id": 72,
+        "title": "Evolfo 'Of Love'",
+        "description": "artist/producer/writer/engineer/mixer",
+        "url": "https://evolfo.bandcamp.com/album/of-love",
+        "opacity": 0
+    },
+    {
+        "id": 71,
+        "title": "Radio Brass 'Intro'",
+        "description": "engineer/mixer/radio",
+        "url": "https://radiobrass.bandcamp.com/album/intro",
+        "opacity": 0
+    },
+    {
+        "id": 70,
+        "title": "canteenkilla and Low Noon 'Music For Monarch Butterflies'",
+        "description": "artist/coproducer/mixer/mastering",
+        "url": "https://lownoon.bandcamp.com/album/music-for-monarch-butterflies",
+        "opacity": 0
+    },
+    {
+        "id": 69,
+        "title": "Durand Jones & The Indications 'Flowers'",
+        "description": "engineer/coproducer on 'Everything'",
+        "url": "https://durandjonesandtheindications.bandcamp.com/album/flowers",
+        "opacity": 0
+    },
+    {
+        "id": 68,
+        "title": "New Street Adventure 'What Kind Of World'",
+        "description": "mixer",
+        "url": "https://acidjazz.co.uk/products/new-street-adventure-what-kind-of-world?variant=52280262623569",
+        "opacity": 0
+    },
+    {
+        "id": 67,
+        "title": "Matt Hull 'Dreams of Radio Brass'",
+        "description": "engineer/mixer/instrumentalist",
+        "url": "https://matthullmusic.bandcamp.com/album/dreams-of-radio-brass",
+        "opacity": 0
+    },
+    {
+        "id": 66,
+        "title": "Matt Berry/New Street Adventure 'Silver Rings'",
+        "description": "mixer",
+        "url": "https://mattberry.bandcamp.com/album/silver-rings",
         "opacity": 0
     },
     {
@@ -17,7 +66,7 @@
     {
         "id": 63,
         "title": "Matanda 'Automatic'",
-        "description": "performer/coproducer/engineer/mixer",
+        "description": "mixer",
         "url": "https://open.spotify.com/album/2RT33quQp3UD5azRhYSNIW?go=1&nd=1&dlsi=789e2e2aec0f4c30",
         "opacity": 0
     },
